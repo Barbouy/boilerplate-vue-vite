@@ -1,0 +1,32 @@
+{
+  "name": "boilerplate",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "engines": {
+    "node": "~18.12"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "dotenv": "^16.0.3",
+    "moment": "^2.29.4",
+    "vue": "^3.2.45",
+    "vue-material-design-icons": "^5.1.2",
+    "vue-router": "^4.1.6",
+    "vue3-keypress": "^4.0.1",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.27.0",
+    "eslint-plugin-vue": "^9.7.0",
+    "tailwindcss": "^3.2.4",
+    "vite": "^4.0.0"
+  }
+}
